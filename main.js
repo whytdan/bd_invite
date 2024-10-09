@@ -59,9 +59,6 @@ function updateCountdown() {
   const now = new Date();
   const timeDiff = birthday - now;
 
-  console.log('birthday:', birthday);
-  console.log('now:', now);
-
   if (timeDiff > 0) {
     const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
     const hours = Math.floor(
@@ -69,8 +66,6 @@ function updateCountdown() {
     );
     const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-
-    console.log(`${days}d ${hours}h ${minutes}m ${seconds}s`);
 
     document.getElementById(
       'countdown_timer'
