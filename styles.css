@@ -18,6 +18,10 @@ body {
   background-color: #fff;
 }
 
+h1 {
+  font-size: 24px;
+}
+
 a {
   color: #7e60bf;
   text-decoration: none;
@@ -100,7 +104,7 @@ a {
 }
 
 #countdown_timer {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .confetti {
