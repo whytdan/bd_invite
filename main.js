@@ -1,5 +1,6 @@
 // Array to store the paths to your images
 const images = [
+  './assets/potato.gif',
   './assets/23.gif',
   './assets/plant.gif',
   './assets/21.gif',
